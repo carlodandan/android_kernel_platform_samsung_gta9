@@ -15,8 +15,8 @@ export CROSS_COMPILE_COMPAT="arm-linux-gnueabi-"
 export OUT_DIR="out"
 export DIST_DIR="out"
 export BUILD_CONFIG="build.config"
-export CLANG_PREBUILT_BIN="kernel/prebuilts-master/clang/host/linux-x86/clang-r416183b/bin"
-export LD_LIBRARY_PATH="kernel/prebuilts-master/clang/host/linux-x86/clang-r416183b/lib64"
-export LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN="kernel/prebuilts/gas/linux-x86"
+export CLANG_PREBUILT_BIN="prebuilts-master/clang/host/linux-x86/clang-r416183b/bin"
+export LD_LIBRARY_PATH="prebuilts-master/clang/host/linux-x86/clang-r416183b/lib64"
+export LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN="prebuilts/gas/linux-x86"
 
 ./build/build.sh 
