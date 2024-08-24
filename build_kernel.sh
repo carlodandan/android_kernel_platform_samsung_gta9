@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install bison flex rsync device-tree-compiler bc cpio -y
+sudo apt-get install bison flex rsync device-tree-compiler bc cpio lz4 -y
 
 git clone --depth=1 https://github.com/carlodandan/android_kernel_samsung_gta9.git -b master ./kernel_platform/kernel-5.10
 cd kernel_platform/kernel-5.10
