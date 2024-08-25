@@ -1,5 +1,4 @@
 # Ignored Files and Directory by GIT
-**/kernel-5.10
 kernel_platform/out
 kernel_platform/vendor
 **/build.txt
