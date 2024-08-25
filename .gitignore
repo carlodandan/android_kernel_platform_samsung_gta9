@@ -1,7 +1,5 @@
 # Ignored Files and Directory by GIT
 **/kernel-5.10
-kernel_platform/build.config.gki.aarch64
-kernel_platform/build.config.mtk
 kernel_platform/out
 kernel_platform/vendor
 **/build.txt
